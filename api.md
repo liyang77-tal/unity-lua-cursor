@@ -1,7 +1,9 @@
-### 每个脚本文件都是一个节点实例，基于组件，获取脚本节点下的某个节点的方法如下： 
+### 每个脚本文件都是一个节点实例，基于组件，
 
 
-self:Find("节点名称") 
+### 获取脚本节点下的某个节点的方法如下： 
+
+self:Find("节点名称")  --返回transform
 
 
 脚本节点是self.VisElement.transform.gameObject
